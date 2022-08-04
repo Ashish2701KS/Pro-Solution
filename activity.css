@@ -1,0 +1,84 @@
+body{
+        background-image: url(activity.jpg);
+        background-size: cover;
+    }
+ button{
+    background-color:#4CAF50;
+    width: 10%;
+    padding: 9px 5px;
+    margin:10px 0px 0px 35px;
+    cursor:pointer;
+    border:none;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    
+    }
+button:hover{
+    opacity:0.8;
+    }
+ input[type=text]{
+    width:400px;
+    height:50px;
+    padding:7px 10px;
+    margin: 10px 0;
+    display:inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    }
+table{
+margin-top:15%;
+border: 2px solid black;
+}
+th{
+    font-size:25px;
+    border:1px solid black;
+}
+td{
+    font-size:15px;
+    border:1px solid black;
+}
+
+.add{
+background-color:lightgreen;
+}
+          
+@media screen and (max-width:1000px)
+{
+button{
+    background-color:#4CAF50;
+    width: 20%;
+    padding: 9px 5px;
+    margin:10px 0px 0px 35px;
+    cursor:pointer;
+    border:none;
+    color:#ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    
+    }
+th,td{
+    font-size:10px;
+    border:1px solid black;
+  
+    }
+table{
+width:50px;
+position:relative;}
+.add{
+background-color:lightgreen;
+font-size:10px;
+}
+input[type=text]{
+    width:300px;
+    height:50px;
+    padding:7px 10px;
+    margin: 10px 0;
+    display:inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+   
+    }
+table{
+margin-top:25%;
+}

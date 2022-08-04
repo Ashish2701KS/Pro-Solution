@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="resetstyle.css">
+	<link rel="stylesheet" type="text/css" href="toggle.css">
+	<link rel="stylesheet" type="text/css" href="host.css">
+</head>
+<body>
+	<nav class="nav-main">
+		<div class="btn-toggle-nav" onclick="toggleNav()"></div>
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+			<li><a>Pro So!ution</a></li>
+		</ul>
+	</nav>
+	<div class="nav-sidebar">
+		<ul>
+			<li><span>Menu</span></li>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="profile.html">Profile</a></li>
+			<li><a href="activity.html">Activity</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
+	
+	<div id="main">
+		<div class="main-host">
+			<div class="host-in" id="co"> </div>
+            <div class="host">
+            <div class="main-form">
+            	<center>
+                <form action="" class="box-form">
+                   <div class="form-group"> <input class="form-control" type="text"  name="title" required placeholder="Topic Title" maxlength="30" title="Title should contain maximum 50 alphabets."></div>
+                   <div class="form-group"> <textarea class="form-control" name="dilemma" required placeholder="Brief About The Dilemma :" rows="10" cols="50" wrap="hard" title="Briefly explain ur problem here."></textarea></div>
+                    <button class="btn btn-primary" name="btn" type="submit">Submit</button> 
+                </form>
+            	</center>
+            </div>
+            </div>
+		</div>
+	</div>
+<script src="toggle.js"></script>
+</body>
+</html>

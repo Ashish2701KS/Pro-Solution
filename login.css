@@ -1,0 +1,122 @@
+ body{
+    margin: 10px;
+    padding: 10px;
+    text-align:center;
+    width: 100%;
+    background-image:url(login.jpeg);
+	min-height: 837px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    }
+     
+    input[type=text], input[type=password]{
+    width:20%;
+    padding:7px 10px;
+    margin: 10px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   
+    }
+     
+    button{
+    background-color:#4CAF50;
+    width: 10%;
+    padding: 9px 5px;
+    margin:10px 0px 0px 35px;
+    cursor:pointer;
+    border:none;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    
+    }
+
+    #heading{
+    text-shadow:1px 1px 3px yellow;
+    
+    }
+     
+    button:hover{
+    opacity:0.8;
+    }
+     
+    #un,#ps{
+    font-family:sans-serif;
+    color: gray;
+    font-weight:bold;
+    margin-left:40px;
+    }
+    
+    #uname:hover{
+    background-color:lightgray;
+    }
+    
+    #upass:hover{
+    background-color:lightgray;
+    }
+ 
+ 
+    #container{
+        position: absolute;
+        top:5%;
+        bottom: 5%;
+        left:20%;
+        right:20%;
+        margin: auto;
+        width:600;
+        height:500px;
+        text-align: center;
+        background-color:white;
+        }
+
+    #newm{
+    text-align:center;
+        margin-left:30px;
+         }
+
+    #top{
+        height:150px;
+        width:150px;
+        position:relative;
+        
+        
+ 
+        display:inline-block;
+        align:center;
+
+        }
+
+      #image{
+       height:150px;
+       width:150px;}
+
+@media screen and (max-width:1000px)
+{
+button{
+    background-color:#4CAF50;
+    width: 20%;
+    padding: 9px 5px;
+    margin:10px 0px 0px 35px;
+    cursor:pointer;
+    border:none;
+    color:#ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    
+    }
+
+   
+input[type=text], input[type=password]{
+    width:30%;
+    padding:7px 10px;
+    margin: 10px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size:8px;
+    } 
+          
+}

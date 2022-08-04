@@ -1,0 +1,41 @@
+body{
+background-image: url(host.jpg);
+min-height: 837px; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#main{
+  padding: 15vw 25vw 0 22vw;
+}
+.main-form{
+     width: 450px;
+     margin-bottom:10px;
+     margin-right: 10vw;
+     border-radius: 6px;
+     height: auto;
+     padding: 30px;
+     resize: none;
+     border:1px solid grey;
+     float: right;
+     box-shadow:0 0  10px 5px #888888;
+}
+.form-control{
+  transition: 0.5s;
+  resize: none;
+}
+
+@media screen and (max-width: 600px)
+{
+	h4{
+		font-size:12px;
+	}
+
+.main-form{
+margin-top:15% ;
+width: 400px;
+height: auto;
+resize: none;
+float:none;
+}

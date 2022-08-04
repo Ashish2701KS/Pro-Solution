@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="resetstyle.css">
+	<link rel="stylesheet" type="text/css" href="toggle.css">
+	<link rel="stylesheet" type="text/css" href="profile.css">
+</head>
+<body>
+	<nav class="nav-main">
+		<div class="btn-toggle-nav" onclick="toggleNav()"></div>
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+			<li><a>Pro So!ution</a></li>
+		</ul>
+	</nav>
+	<div class="nav-sidebar">
+		<ul>
+			<li><span>Menu</span></li>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="#">Profile</a></li>
+			<li><a href="activity.html">Activity</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</div>
+	<center>
+		<div class="box">
+			<img src="profile.png">
+			<input type="file" name="" id="file" accept="image/*">
+			<label for="file">EDIT PIC</label>
+			<input type="text" name="name" placeholder="User Name">
+			<input type="email" name="email" placeholder="Email ID">
+			<input type="text" name="mobno" placeholder="Phone Number">
+			<input type="text" name="age" placeholder="Age">
+			<button style="float: left; margin:10px 0 0 18%;">Cancel</button>
+			<button style="float: right;margin:10px 18% 0 0;">Done</button>
+		</div>
+	</center>
+<script src="toggle.js"></script>
+</body>
+</html>

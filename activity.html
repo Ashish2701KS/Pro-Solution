@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="resetstyle.css">
+    <link rel="stylesheet" type="text/css" href="toggle.css">
+    <link rel="stylesheet" type="text/css" href="activity.css">
+</head>
+<body>
+<script type="text/javascript" src="table_script.js"></script>
+<script type="text/javascript" src="activity.js"></script>
+<script type="text/javascript" src="toggle.js"></script>
+<nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a>Pro So!ution</a></li>
+        </ul>
+    </nav>
+    <div class="nav-sidebar">
+        <ul>
+            <li><span>Menu</span></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="#">Activity</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+  
+ <form>
+<center>
+
+<div id="wrapper">
+<table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+<tr >
+<th colspan="2">Post your Question</th>
+
+</tr>
+
+
+<tr>
+<td><input type="text" id="new_name"></td>
+
+<td><input id="but" type="button" class="add" onclick="add_row();" value="Add Another Question"></td>
+</tr>
+
+</table>
+  
+</div>
+   <br>
+</center>
+   <center>
+  <button type="submit" id="submit" onclick="alert'Question Posted Successfully'">Submit</button>
+     </center>
+  </form>
+</body>
+</html>

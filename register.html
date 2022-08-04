@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+function validateForm() { 
+var pw1 = document.getElementById("pswd1").value;  
+    var pw2 = document.getElementById("pswd2").value;  
+    
+   
+    if(pw1 != pw2) {  
+      document.getElementById("message2").innerHTML = "**Passwords are not same";  
+      return false;  
+    } else {  
+      alert ("Registered successfully");  
+      
+    }  
+ }
+</script>
+<meta charset="ISO-8859-1">
+<title>Login and Registration form example</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+ 
+<body bgcolor="#E6E6FA">
+
+<form name="regi" action="home.html" method="post" onsubmit="return validateForm()">
+<h2>Registration Form</h2>
+<center>
+<table>
+<tr>
+<td>
+<label for="r1" id="fn">First Name:</label>
+</td>
+<td>
+<input type="text" name="fname" id="r1" pattern=[A-Za-z]{3,100} required
+title="Name must contain uppercase and lowercase alphabets only">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label  for="r2" id="ln">Last Name:</label>
+</td>
+<td>
+<input type="text" name="lname" id="r2" pattern=[A-Za-z]{3,100} required
+title="Last name must contain uppercase and lowercase alphabets only">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label  for="r3" id="un">Username:</label>
+</td>
+<td>
+<input type="text" name="uname" id="r3" pattern=[A-Za-z0-9]{8,100}
+title="Username must only contain uppercase, lowercase alphabets and numbers only" required><br/>
+</td>
+</tr>
+ 
+<tr>
+<td>
+<label  for="r4" id="pwd">Password:</label>
+</td>
+<td>
+<input type="password" name="pw1" id="pswd1" required>
+
+</td>
+</tr>
+
+
+<tr>
+<td>
+<label  for="r5" id="pwd1">Confirm Password:</label>
+</td>
+<td>
+<input type="password" name="pw2" id="pswd2" required>
+<span id="message2" style="color:red ; margin-left:50px"></span>
+</td>
+</td>
+
+<tr>
+<td>
+<label  for="r5" id="em">Email:</label>
+</td>
+<td>
+<input type="email" name="email" id="r5" required><br/>
+</td>
+</tr>
+
+<tr>
+<td>
+<label  for="r6" id="mn">Mobile No:</label>
+</td>
+<td>
+<input type="text" name="mno" id="r6" pattern=[0-9]{10} required
+title="Number must start with zero"><br/>
+</td>
+</tr> 
+</table>
+<br>
+<label for="r8" id="cy">State:</label>
+ 
+<select required name="ct" id="r8">
+<option selected disabled hidden value="none">State</option>
+<option>Andhra Pradesh</option>
+<option>Arunachal Pradesh</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Goa </option>
+<option>Gujarat </option>
+<option>Haryana </option>
+<option>Himachal Pradesh </option>
+<option>Jammu & Kashmir</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Maharashtra </option>
+<option>Manipur </option>
+<option>Meghalaya </option>
+<option>Mizoram</option>
+<option>Nagaland </option>
+<option>Orissa </option>
+<option>Punjab </option>
+<option>Rajasthan </option>
+<option>Sikkim</option>
+<option>Tamil Nadu </option>
+<option>Tripura </option>
+<option>Uttar Pradesh</option>
+<option>West Bengal </option>
+<option>Chhattisgarh </option>
+<option>Uttarakhand</option>
+<option>Jharkhand </option>
+<option>Telangana</option>
+</select>
+<br>
+<br>
+<form>
+    <button type="submit" formaction="home.html">Submit</button>
+</form>
+<button type="reset" value="Reset" id="button">Reset</button>
+<br>
+<a href="login.html">Back to Home</a>
+
+</center>
+</form>
+ 
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+body{
+margin: 100px;
+text-align: center;
+align-items: center;
+background:url("register.jpeg");
+min-height: 837px; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+ 
+input[type=text],[type=email],[type=number],input[type=password]{
+width: 80%;
+margin: 10px 50px;
+padding: 7px 10px;
+display: inline-block;
+border:1px solid #ccc;
+box-sizing: border-box;
+}
+
+
+button{
+background-color:#4CAF50;
+width: 10%;
+
+padding: 9px 5px;
+cursor:pointer;
+border:none;
+color:#ffffff;
+
+}
+ 
+button:hover{
+opacity:0.8;
+}
+ 
+#fn,#ln,#un,#pwd,#em,#mn,#fm,#cy,#pwd1{
+font-family:'Lato', sans-serif;
+color: gray;
+font-size:20px;
+}
+ 
+
+
+
+@media screen and (max-width:1000px)
+{
+
+input[type=text],[type=email],[type=number],input[type=password]{
+width: 80%;
+margin: 8px 50px;
+padding: 7px 10px;
+display: inline-block;
+border:1px solid #ccc;
+box-sizing: border-box;
+}
+
+
+#fn,#ln,#un,#pwd,#em,#mn,#fm,#cy,#pwd1{
+font-family:'Lato', sans-serif;
+color: gray;
+font-size:15px;
+}
+
+
+button{
+background-color:#4CAF50;
+width: 30%;
+padding: 9px 5px;
+margin:5px 0;
+cursor:pointer;
+border:none;
+color:#ffffff;
+
+}
+
+span{
+font-size:10px;
+}

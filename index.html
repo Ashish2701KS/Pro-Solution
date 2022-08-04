@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ 
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Login Page</title>
+ 
+<link rel="stylesheet" type="text/css" href="login.css">
+ 
+</head>
+ 
+<body>
+ 
+<div id="container">
+
+<div id="top"><img src="head.jpeg" id="image"></div>
+
+<form action="login" method="post" id="flogin">
+ 
+<div class="border-box">
+<h1 id="heading">Login</h1>
+<label for="uname" id="un">Username:</label>
+<input type="text" name="user" placeholder="Enter Username" id="uname" required pattern=[A-Za-z0-9]{8,100}
+title="Username must only contain uppercase, lowercase alphabets and numbers only"><br/>
+ 
+<label for="upass" id="ps">Password:</label>
+<input type="password" name="pass" placeholder="Enter Password" id="upass" required><br/>
+ 
+<form>
+    <button type="submit" formaction="home.html">Submit</button>
+</form>
+<br>
+<br>  
+<a href="register.html" id="newm">New Member</a>
+</div>
+ 
+</form>
+
+ 
+</body>
+</html>
+
+
